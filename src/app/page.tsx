@@ -98,7 +98,7 @@ export default function Home() {
                 className="bg-black px-3 text-lg text-white"
                 asChild
               >
-                <Link href="https://github.com/mridxl/aicarus" target="_blank">
+                <Link href="https://github.com/sourpie/gitknow" target="_blank">
                   Github Repository <GithubIcon className="inline" />
                 </Link>
               </Button>
