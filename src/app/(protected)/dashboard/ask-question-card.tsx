@@ -75,7 +75,7 @@ const AskQuestionCard = () => {
       {/* Question Answer Dialog */}
       <Dialog open={open} onOpenChange={setOpen}>
         <DialogContent
-          className="sm:max-w-[70vw]"
+          className="max-h-screen overflow-y-scroll sm:max-w-[70vw]"
           aria-describedby="Answer"
           aria-description="Answer"
         >
@@ -154,7 +154,7 @@ const AskQuestionCard = () => {
               </Button>
             </div>
             <div className="h-4"></div>
-            <div className="inline-flex items-start gap-1 text-xs text-muted-foreground md:text-sm">
+            <div className="text-muted-foreground inline-flex items-start gap-1 text-xs md:text-sm">
               <CircleAlert size={18} className="hidden md:mt-[1px] md:block" />
               <span>
                 Note: If you don&apos;t see a code viewer tab below the
